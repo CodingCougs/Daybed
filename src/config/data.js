@@ -13,18 +13,18 @@ export default  {
         {
             header: '_Container',
             content: [
-               
+                'Containers can be considered wrappers for Components.  It links reducers (states) and actions (methods) to the component.',
             ]
         },        {
             header: 'Component-reducer',
             content: [
-               
+                'Reducers will implement actions. It is called after every actions called.  It will receive a payload from action.'
             ]
         },
         {
             header: 'Component-actions',
             content: [
-              
+                'Actions provides method prototypes that will be implemented in reducers.  It provides the name of the method and return an action type and payload to the reducer associated with it.'
             ]
         }
     
