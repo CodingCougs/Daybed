@@ -78,7 +78,6 @@ export default class Home extends Component {
         console.log("Homepage Render Props:", this.props)
         return(
             <div>
-                {this.createMenu()}
                 <Container text>
                     <Grid container={true} padded='horizontally'>
                         <Grid.Row>
