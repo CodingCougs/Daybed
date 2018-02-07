@@ -1,6 +1,6 @@
 import Help from './example';
 import { bindActionCreators } from 'redux';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import * as Actions from './example-actions';
 
 
